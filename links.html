@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="refresh"content="50">
+<link rel="stylesheet" href="links.css">
+<title></title>
+<style>
+table{
+width:100%;
+}
+table, th, td{
+border-collapse:collapse;
+}
+tr{
+border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+  <p>First version </p>
+<table >
+<colgroup>
+<col span="1">
+<col span="1" style="background-color:blue;">
+<col span="1" style="background-color:red;">
+
+</colgroup>
+
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Savings</th>
+</tr>
+
+<tr>
+<td>Peter</td>
+<td>Griffin</td>
+<td>$100</td>
+  </tr>
+  <tr>
+<td>Lois</td>
+<td>Griffin</td>
+<td>$150</td>
+  </tr>
+  <tr>
+<td>Joe</td>
+<td>Swanson</td>
+<td>$300</td>
+  </tr>
+  <tr>
+<td>Cleveland</td>
+<td>Brown</td>
+<td>$250</td>
+  </tr>
+</table>
+
+<div class="all">
+<ul class="train">
+<li><a href="https://www.tubidy.com" >HOME</a></li>
+<li><a href="https://www.tubidy.com" >TUBIDY</a></li>
+<li><a href="https://www.tubidy.com" >CONTACT</a></li>
+<li><a href="https://www.tubidy.com" >REVIEW</a></li>
+</ul>
+
+</div>
+
+<p>The students include:</p>
+<ol type="1" start="78">
+<li>Samuel Maiko</li>
+<li><u>Felicity Shiru</u></li>
+<li>Cate </li>
+</ol>
+
+<div id ="name"></div>
+
+<p class="test sam">Samuel</p>
+<p class="test">Felicity</p>
+<p class="test">Cate</p>
+<p>Testing out iframes:</p>
+<a href="https://www.mdundo.com" target="frame">Mdundo music</a>
+
+<iframe name="frame" src="https://www.tubidy.com" title="tubidy" width="100%" height="250px"
+style="border:1px solid blue;"
+></iframe>
+
+<button class="button" type="button" onclick="calculate()">
+TEST</button>
+
+<script>
+function calculate(){
+document.getElementById('name').innerHTML=500/2
+}
+</script>
+
+
+<p><img  id="bulb" src="pic_bulboff.gif"></p>
+
+<script>
+
+function kuwaka(x){
+var picha;
+if(x==1){
+picha="pic_bulbon.gif"
+}
+else if(x==0){
+picha="pic_bulboff.gif"
+}
+
+document.getElementById('bulb').src=picha
+}
+</script>
+
+<noscript>Sorry your browser does not support Javascript</noscript>
+
+<button class="on all" type="button" onclick="kuwaka(1)">Switch on</button>
+
+<button class="on"  type="button" onclick="kuwaka(0)">Switch off</button>
+
+<marquee class="blink" loop="50" scrolldelay="4" behaviour="alternate"
+direction="right"scrollamount="4" bgcolor="yellow"
+style="margin-top:40px;background-color:yellow;">
+
+This is me testing the new tag in town.
+</marquee>
+
+</body>
+</html>
+ 
+

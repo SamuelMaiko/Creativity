@@ -1,0 +1,80 @@
+.all{
+margin-top:13px;
+}
+
+.train {
+margin:0;
+padding:0;
+list-style-type:none;
+background-color:rgba(0,0,0,0.4);
+overflow:hidden;
+width:100%;
+}
+/*<p>First version </p>*/
+.train li{
+float:left;
+}
+
+.train li a{
+display:block;
+text-decoration:none;
+color:white;
+padding:9px 8px;
+}
+
+.train li a:hover{
+background-color:black;
+color:white;
+}
+
+
+.test{
+background-color:blue;
+padding:8px;
+color:white;
+}
+
+.sam{
+width:100px;
+text-align:center;
+}
+.button:visited{
+background-color:blue;
+color:yellow;
+}
+.button:hover{
+background-color:red;
+color:white;
+}
+
+.button{
+margin-left:140px;
+margin-bottom:5px;
+}
+#bulb{
+margin-left:120px;
+width:100px;
+height:160px;
+}
+
+.on{
+
+background-color:green;
+color:yellow;
+padding:8px 15px;
+}
+.all{
+margin-left:50px;
+margin-right:40px;
+}
+
+
+.blink{
+animation:blinker 2.8s linear infinite;
+color:blue;
+}
+@keyframes blinker{
+50%{
+opacity:0;
+}
+}
